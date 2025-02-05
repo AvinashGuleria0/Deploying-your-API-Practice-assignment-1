@@ -2,10 +2,10 @@ const express = require("express");
 const { connect } = require("mongoose");
 const connectToDb = require("./src/config/db");
 const app = express();
-const db_url = process.env.DB_URL
 
 require('dotenv').config();
 
+const db_url = process.env.DB_URL
 const PORT = process.env.PORT || 80085;
 
 
